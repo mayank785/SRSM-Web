@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background: linear-gradient(-45deg, #ffffff, #b3b2b2, #5a5a5a, #5a5a5a, #b3b2b2, #ffffff);
+    background-size: 400% 400%;
+    background-position: relative;
+    height: 100vh;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.navigation ul {
+    list-style-type: none;
+    float: right;
+    margin-right: 25px;
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.navigation ul li a:hover {
+    background: white;
+    color: black;
+}
+
+.logo {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.main {
+    margin-top: 200px;
+    margin-bottom: 500px;
+}
+
+.foot {
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+.foot ul {
+    text-align: center;
+}
+
+.foot ul li {
+    display: inline-block;
+    padding: 5px 60px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.welcome {
+    color: white;
+    text-align: center;
+}
+
+.welcome ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.welcome ul li {
+    display: inline-block;
+}
+
+.welcome ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.welcome ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+.body {
+    margin-top: 500px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.body h1 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.body p {
+    color: whitesmoke;
+    font-size: 25px;
+}
